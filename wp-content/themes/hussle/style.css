@@ -1,3 +1,48 @@
+/* 
+Theme Name: hussleverse WP Theme
+Text Domain: hussleverse.dev
+Version: 1.0.0
+Description: Custom WordPress theme developed for online custom web-development purposes. Not intended for resale or distribution, this theme version is a OpenSource edition. --Created & developed by hussleverse.
+Tags: responsive, simple, custom, styled, widgets, custom-menu, custom-blog, mobile-menu, desktop-menu, menu, theme-simplicity, simple-editor, multilanguage-options, footer-widgets, content-widgets, footer-widgets, &more
+Author: hussleverse
+Author URI: https://www.hussleverse.dev/
+License: Open Source MIT License
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+body {
+  background-color: #000;
+}
+
+section {
+  block-size: 100vh;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: grid;
+  place-items: center;
+}
+
+span,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+  font-family: SourceCodePro;
+}
+
 @font-face {
   font-family: "SourceCodePro";
   font-weight: 200;
@@ -96,51 +141,6 @@
   font-stretch: normal;
   src: url("assets/fonts/WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-BlackIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-BlackIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-BlackIt.ttf") format("truetype");
 }
-/* 
-Theme Name: hussleverse WP Theme
-Text Domain: hussleverse.dev
-Version: 1.0.0
-Description: Custom WordPress theme developed for online custom web-development purposes. Not intended for resale or distribution, this theme version is a OpenSource edition. --Created & developed by hussleverse.
-Tags: responsive, simple, custom, styled, widgets, custom-menu, custom-blog, mobile-menu, desktop-menu, menu, theme-simplicity, simple-editor, multilanguage-options, footer-widgets, content-widgets, footer-widgets, &more
-Author: hussleverse
-Author URI: https://www.hussleverse.dev/
-License: Open Source MIT License
-*/
-html {
-  scroll-behavior: smooth;
-}
-
-html {
-  scroll-behavior: smooth;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-}
-
-body {
-  background-color: #000;
-}
-
-section {
-  block-size: 100vh;
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
-  display: grid;
-  place-items: center;
-}
-
-span,
-p,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-i {
-  font-family: SourceCodePro;
-}
-
 a {
   font-size: 18px;
   color: black;
