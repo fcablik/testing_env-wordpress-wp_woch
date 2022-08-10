@@ -1,0 +1,77 @@
+/* 
+Theme Name: hussleverse WP Theme
+Text Domain: hussleverse.dev
+Version: 1.0.0
+Description: Custom WordPress theme developed for online custom web-development purposes. Not intended for resale or distribution, this theme version is a OpenSource edition. --Created & developed by hussleverse.
+Tags: responsive, simple, custom, styled, widgets, custom-menu, custom-blog, mobile-menu, desktop-menu, menu, theme-simplicity, simple-editor, multilanguage-options, footer-widgets, content-widgets, footer-widgets, &more
+Author: hussleverse
+Author URI: https://www.hussleverse.dev/
+License: Open Source MIT License
+*/
+
+//!
+    //* This theme's @SASS styles are always compiling into the root: ("../themes/hussle/")
+//!
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+/* 
+Theme Name: Hussle Dev 22
+Text Domain: husslesystems
+Version: 1.0.8.11
+Description: Hussle Systems Dev template
+Tags: fancy, responsive, amazing
+Author: Hussle Systems
+Author URI: https://www.husslesystems.com/
+License: Open source MIT --- ?
+*/
+
+//!
+    //* @SASS for this project is currently compiling into the: "/wp-content/hussle/" folder
+//!
+
+html{
+
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+}
+
+body {
+
+    background-color: $mainBcg;
+
+}
+
+section {
+
+    block-size: 100vh;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+
+    display: grid;
+    place-items: center;
+
+}
+
+span,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+
+    font-family: SourceCodePro;
+
+}
+
+
+

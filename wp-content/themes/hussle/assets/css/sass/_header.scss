@@ -1,0 +1,80 @@
+.header-main {
+
+    background-color: $white;
+    color: $black;
+    box-shadow: $shadowBlack;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--bs-gutter-x,4.75rem);
+    
+    @media (max-width: 767px){
+
+        padding: .75em;
+
+    }
+
+}
+
+.body-burger {
+
+    @media (min-width: 992px){
+
+        display:none!important;
+
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .hamburger .bar {
+        padding: 0;
+        width: 30px;
+        height: 3px;
+        background-color: $black;
+        display: block;
+        border-radius: 4px;
+        transition: all 0.4s ease-in-out;
+        position: absolute;
+    }
+
+    .bar1 {
+        top: 6px;
+    }
+
+    .bar2,
+    .bar3 {
+        top: 13.5px;
+    }
+
+    .bar3 {
+        right: 0;
+    }
+
+    .bar4 {
+        bottom: 5px;
+    }
+
+
+    .checkbox2:checked+label>.hamburger2>.bar1 {
+        transform: translateX(40px);
+        background-color: transparent;
+    }
+
+    .checkbox2:checked+label>.hamburger2>.bar2 {
+        transform: rotate(45deg);
+    }
+
+    .checkbox2:checked+label>.hamburger2>.bar3 {
+        transform: rotate(-45deg);
+    }
+
+    .checkbox2:checked+label>.hamburger2>.bar4 {
+        transform: translateX(-40px);
+        background-color: transparent;
+    }
+
+}

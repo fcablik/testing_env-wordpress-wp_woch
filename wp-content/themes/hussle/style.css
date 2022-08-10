@@ -1,0 +1,469 @@
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-ExtraLight.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-ExtraLight.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-ExtraLight.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-ExtraLightIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-ExtraLightIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-ExtraLightIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-ExtraLightIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Light.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Light.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Light.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-LightIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-LightIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-LightIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-LightIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Regular.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Regular.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Regular.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-It.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-It.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-It.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-It.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Medium.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Medium.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Medium.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-MediumIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-MediumIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-MediumIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Semibold.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Semibold.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Semibold.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-SemiboldIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-SemiboldIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-SemiboldIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-SemiboldIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Bold.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Bold.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Bold.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-BoldIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-BoldIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-BoldIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-BoldIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-Black.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-Black.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-Black.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceCodePro";
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("assets/fonts/WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2") format("woff2"), url("assets/fonts/WOFF/OTF/SourceCodePro-BlackIt.otf.woff") format("woff"), url("assets/fonts/OTF/SourceCodePro-BlackIt.otf") format("opentype"), url("assets/fonts/TTF/SourceCodePro-BlackIt.ttf") format("truetype");
+}
+.loading-screen {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+}
+.loading-screen .loading-text,
+.loading-screen .loading-footer {
+  font-family: SourceCodePro;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.loading-screen .loading-text span,
+.loading-screen .loading-footer span {
+  display: inline-block;
+  color: #FFF;
+}
+.loading-screen .loading-text {
+  height: 100px;
+  line-height: 100px;
+  font-size: 16px;
+  top: 0;
+}
+.loading-screen .loading-text span {
+  margin: 0 -4px;
+}
+.loading-screen .loading-text span:nth-child(1) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0s infinite linear alternate;
+          animation: blur-text 1.8s 0s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(2) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.04s infinite linear alternate;
+          animation: blur-text 1.8s 0.04s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(3) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.08s infinite linear alternate;
+          animation: blur-text 1.8s 0.08s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(4) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.12s infinite linear alternate;
+          animation: blur-text 1.8s 0.12s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(5) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.16s infinite linear alternate;
+          animation: blur-text 1.8s 0.16s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(6) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.2s infinite linear alternate;
+          animation: blur-text 1.8s 0.2s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(7) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.24s infinite linear alternate;
+          animation: blur-text 1.8s 0.24s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(8) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.28s infinite linear alternate;
+          animation: blur-text 1.8s 0.28s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(9) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.32s infinite linear alternate;
+          animation: blur-text 1.8s 0.32s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(10) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.36s infinite linear alternate;
+          animation: blur-text 1.8s 0.36s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(11) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.4s infinite linear alternate;
+          animation: blur-text 1.8s 0.4s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(12) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.44s infinite linear alternate;
+          animation: blur-text 1.8s 0.44s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(13) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.48s infinite linear alternate;
+          animation: blur-text 1.8s 0.48s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(14) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.52s infinite linear alternate;
+          animation: blur-text 1.8s 0.52s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(15) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.56s infinite linear alternate;
+          animation: blur-text 1.8s 0.56s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(16) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.6s infinite linear alternate;
+          animation: blur-text 1.8s 0.6s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(17) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.64s infinite linear alternate;
+          animation: blur-text 1.8s 0.64s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(18) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.68s infinite linear alternate;
+          animation: blur-text 1.8s 0.68s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(19) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.72s infinite linear alternate;
+          animation: blur-text 1.8s 0.72s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(20) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.76s infinite linear alternate;
+          animation: blur-text 1.8s 0.76s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(21) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.8s infinite linear alternate;
+          animation: blur-text 1.8s 0.8s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(22) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.84s infinite linear alternate;
+          animation: blur-text 1.8s 0.84s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(23) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.88s infinite linear alternate;
+          animation: blur-text 1.8s 0.88s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(24) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.92s infinite linear alternate;
+          animation: blur-text 1.8s 0.92s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(25) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 0.96s infinite linear alternate;
+          animation: blur-text 1.8s 0.96s infinite linear alternate;
+}
+.loading-screen .loading-text span:nth-child(26) {
+  filter: blur(0);
+  -webkit-animation: blur-text 1.8s 1s infinite linear alternate;
+          animation: blur-text 1.8s 1s infinite linear alternate;
+}
+.loading-screen .loading-footer {
+  line-height: 100px;
+}
+.loading-screen .loading-footer span {
+  font-size: 12px;
+  color: #00FF62;
+}
+@-webkit-keyframes blur-text {
+  0% {
+    filter: blur(0);
+  }
+  60% {
+    filter: blur(1.2px);
+  }
+}
+@keyframes blur-text {
+  0% {
+    filter: blur(0);
+  }
+  60% {
+    filter: blur(1.2px);
+  }
+}
+
+/* 
+Theme Name: hussleverse WP Theme
+Text Domain: hussleverse.dev
+Version: 1.0.0
+Description: Custom WordPress theme developed for online custom web-development purposes. Not intended for resale or distribution, this theme version is a OpenSource edition. --Created & developed by hussleverse.
+Tags: responsive, simple, custom, styled, widgets, custom-menu, custom-blog, mobile-menu, desktop-menu, menu, theme-simplicity, simple-editor, multilanguage-options, footer-widgets, content-widgets, footer-widgets, &more
+Author: hussleverse
+Author URI: https://www.hussleverse.dev/
+License: Open Source MIT License
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+Theme Name: Hussle Dev 22
+Text Domain: husslesystems
+Version: 1.0.8.11
+Description: Hussle Systems Dev template
+Tags: fancy, responsive, amazing
+Author: Hussle Systems
+Author URI: https://www.husslesystems.com/
+License: Open source MIT --- ?
+*/
+html {
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+body {
+  background-color: #000;
+}
+
+section {
+  block-size: 100vh;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: grid;
+  place-items: center;
+}
+
+span,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+  font-family: SourceCodePro;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+}
+
+.page-title {
+  background: rgba(0, 0, 0, 0.168);
+}
+@media (min-width: 768px) {
+  .page-title {
+    padding: 150px 0;
+  }
+}
+
+.main-wrapper {
+  padding: 80px 0;
+}
+
+.navigation.pagination {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+a {
+  font-size: 19px;
+  color: black;
+}
+
+.hide {
+  display: none !important;
+}
+
+.header-main {
+  background-color: #FFF;
+  color: #000;
+  box-shadow: 0px 8px 15px 3px rgba(0, 0, 0, 0.0588235294);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em var(--bs-gutter-x, 4.75rem);
+}
+@media (max-width: 767px) {
+  .header-main {
+    padding: 0.75em;
+  }
+}
+
+@media (min-width: 992px) {
+  .body-burger {
+    display: none !important;
+  }
+}
+.body-burger .hamburger {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.body-burger .hamburger .bar {
+  padding: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  display: block;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+}
+.body-burger .bar1 {
+  top: 6px;
+}
+.body-burger .bar2,
+.body-burger .bar3 {
+  top: 13.5px;
+}
+.body-burger .bar3 {
+  right: 0;
+}
+.body-burger .bar4 {
+  bottom: 5px;
+}
+.body-burger .checkbox2:checked + label > .hamburger2 > .bar1 {
+  transform: translateX(40px);
+  background-color: transparent;
+}
+.body-burger .checkbox2:checked + label > .hamburger2 > .bar2 {
+  transform: rotate(45deg);
+}
+.body-burger .checkbox2:checked + label > .hamburger2 > .bar3 {
+  transform: rotate(-45deg);
+}
+.body-burger .checkbox2:checked + label > .hamburger2 > .bar4 {
+  transform: translateX(-40px);
+  background-color: transparent;
+}
+
+.footer-main {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em var(--bs-gutter-x, 4.75rem);
+}
+
+@media (max-width: 991px) {
+  .nav-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .nav-sm {
+    display: none !important;
+  }
+}
+.archive-content {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
