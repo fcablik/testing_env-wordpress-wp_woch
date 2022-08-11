@@ -17,42 +17,9 @@
  
 <body>
 
-    <!--
-    <div id="loadingScreen" class="loading-screen">
-
-        <div class="loading-text">
-            <span class="loading-words">W</span>
-            <span class="loading-words">E</span>
-            <span class="loading-words">L</span>
-            <span class="loading-words">C</span>
-            <span class="loading-words">O</span>
-            <span class="loading-words">M</span>
-            <span class="loading-words">E&nbsp;</span>
-            <span class="loading-words">T</span>
-            <span class="loading-words">O&nbsp;</span>
-            <span class="loading-words">H</span>
-            <span class="loading-words">U</span>
-            <span class="loading-words">S</span>
-            <span class="loading-words">S</span>
-            <span class="loading-words">L</span>
-            <span class="loading-words">E</span>
-            <span class="loading-words">V</span>
-            <span class="loading-words">E</span>
-            <span class="loading-words">R</span>
-            <span class="loading-words">S</span>
-            <span class="loading-words">E</span>
-        </div>
-
-        <div class="loading-footer">
-            <span>// in development, see you soon</span>
-        </div>
-
-    </div>
-    -->
-
     <header class="header-main d-flex sticky-top">
 
-        <a href="/" class="d-flex align-items-center col-md-6">
+        <a href="/wp_poca" class="d-flex align-items-center col-md-6">
             <?php
                 if(function_exists('the_custom_logo'))
                 {
@@ -116,10 +83,9 @@
 
     <div class="page-title">
         <div class="container">
-            <!-- ! consider fixed title (// dynamic atm.) -->
+            <!-- ! consider fixed title (//dynamic atm.) -->
             <h1 class="heading">
                 <?php
-                    // page title
                     the_title();
                 ?>
             </h1>

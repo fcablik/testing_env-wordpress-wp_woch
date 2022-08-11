@@ -1,5 +1,5 @@
 <?php
-get_header();
+    get_header();
 ?>
 
 <h1>Page Not Found. (make this string via. language.php file)</h1>
@@ -9,5 +9,5 @@ get_header();
 ?>
 
 <?php
-get_footer();
+    get_footer();
 ?>
