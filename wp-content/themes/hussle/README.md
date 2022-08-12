@@ -1,7 +1,7 @@
 # initial release
 # version: 1.0.0
 
-//add in the future:
+# add in the future:
 // own post types.. WP basic = posts, pages => add smth. like "car reviews", "news", etc.
 // custom fields to pages/posts --- (new blocks, fields...)
 // shortcodes
