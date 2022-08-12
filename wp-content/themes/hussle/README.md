@@ -25,5 +25,9 @@
 
 # Parts to configure / get / create:
 - [x] own post types.. WP basic = posts, pages => add smth. like "car reviews", "news", etc.
-- [] custom fields to pages/posts --- (new blocks, fields...)
-- [] shortcodes
+- [ ] custom fields to pages/posts --- (new blocks, fields...)
+- [ ] shortcodes
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
