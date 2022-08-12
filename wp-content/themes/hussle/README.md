@@ -1,12 +1,6 @@
 # initial release
 # version: 1.0.0
 
-# add in the future:
-// own post types.. WP basic = posts, pages => add smth. like "car reviews", "news", etc.
-// custom fields to pages/posts --- (new blocks, fields...)
-// shortcodes
-
-
 # help-road-map:
 
     main sections are called by: (
@@ -28,3 +22,8 @@
 # notes / visuals / ideas
 // loading fonts from admin in variable ? -- name input & path -- or straight upload to the fonts folder --> theme/assets/fonts/...
 //
+
+# Parts to configure / get / create:
+// own post types.. WP basic = posts, pages => add smth. like "car reviews", "news", etc.
+// custom fields to pages/posts --- (new blocks, fields...)
+// shortcodes
