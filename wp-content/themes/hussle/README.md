@@ -8,7 +8,6 @@
 
 
 # help-road-map:
-    1. Initial (no.1): Header.php
 
     main sections are called by: (
         a. header
@@ -17,10 +16,13 @@
         d. footer
     );
 
+    1. Initial (no.1): Header.php
+
     2. front-page.php / single.php
     3.
     4.
     5.
+
     6. Final (no.6>?): Footer.php
 
 # notes / visuals / ideas
