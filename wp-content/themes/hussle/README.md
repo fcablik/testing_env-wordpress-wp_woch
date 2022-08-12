@@ -22,3 +22,7 @@
 //   4.
 //   5.
 //   Last (no.6>?): Footer.php
+
+# notes / visuals / ideas
+// loading fonts from admin in variable ? -- name input & path -- or straight upload to the fonts folder --> theme/assets/fonts/...
+//
