@@ -4,16 +4,16 @@
     add_filter('show_admin_bar', '__return_false');
 
 
-function hussle_theme_support(){
+function woch_theme_support(){
     //add dynamic title tag support to www (WP feature)
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');
 }
-add_action('after_setup_theme', 'hussle_theme_support');
+add_action('after_setup_theme', 'woch_theme_support');
 
 
-function hussle_call_menu(){
+function woch_call_menu(){
     $locations = [
         'primary' => "Desktop Primary Menu",
         'footer'  => "Footer Menu Items",
@@ -21,28 +21,28 @@ function hussle_call_menu(){
 
     register_nav_menus($locations);
 }
-add_action('init', 'hussle_call_menu');
+add_action('init', 'woch_call_menu');
 
 
-function hussle_load_styles(){
+function woch_load_styles(){
     $version = wp_get_theme()->get('Version');
-    wp_enqueue_style('hussle-style', get_template_directory_uri() . "/style.min.css", ['hussle-bootstrap'], $version, 'all');
-    wp_enqueue_style('hussle-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap/bootstrap.min.css", [], '5.1.3', 'all');
-    // *slow-loadUp //wp_enqueue_style('hussle-bootstrap-icons', "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css", [], '1.8.1', 'all');
+    wp_enqueue_style('woch-style', get_template_directory_uri() . "/style.min.css", ['woch-bootstrap'], $version, 'all');
+    wp_enqueue_style('woch-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap/bootstrap.min.css", [], '5.1.3', 'all');
+    // *slow-loadUp //wp_enqueue_style('woch-bootstrap-icons', "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css", [], '1.8.1', 'all');
 }
-add_action('wp_enqueue_scripts', 'hussle_load_styles');
+add_action('wp_enqueue_scripts', 'woch_load_styles');
 
 
-function hussle_load_scripts(){
+function woch_load_scripts(){
     $version = wp_get_theme()->get('Version');
-    wp_enqueue_script('hussle-bootstrap', get_template_directory_uri() . "/assets/js/bootstrap/bootstrap.min.js", [], '5.1.3', true);
-    wp_enqueue_script('hussle-jquery', get_template_directory_uri() . "/assets/js/jquery-3.6.0.min.js", [], '3.6.0', true);
-    wp_enqueue_script('hussle-main', get_template_directory_uri() . "/assets/js/main.js", ['hussle-bootstrap', 'hussle-jquery'], $version, true);
+    wp_enqueue_script('woch-bootstrap', get_template_directory_uri() . "/assets/js/bootstrap/bootstrap.min.js", [], '5.1.3', true);
+    wp_enqueue_script('woch-jquery', get_template_directory_uri() . "/assets/js/jquery-3.6.0.min.js", [], '3.6.0', true);
+    wp_enqueue_script('woch-main', get_template_directory_uri() . "/assets/js/main.js", ['woch-bootstrap', 'woch-jquery'], $version, true);
 }
-add_action('wp_enqueue_scripts', 'hussle_load_scripts');
+add_action('wp_enqueue_scripts', 'woch_load_scripts');
 
 
-function hussle_widget_areas(){
+function woch_widget_areas(){
 
     register_sidebar(
         [
@@ -71,7 +71,7 @@ function hussle_widget_areas(){
     );
 
 }
-add_action('widgets_init', 'hussle_widget_areas');
+add_action('widgets_init', 'woch_widget_areas');
 
 
 //SVG upload (// Wp v4.7.1 and higher)

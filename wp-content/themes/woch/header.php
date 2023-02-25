@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog Site Template">
-    <meta name="author" content="hussleverse.dev">
-    <link rel="shortcut icon" href="/wp-content/themes/hussle/assets/images/logo.png"> 
+    <meta name="author" content="wochdev.com">
+    <link rel="shortcut icon" href="/wp-content/themes/woch/assets/images/logo.png"> 
 
 	<?php
 	    wp_head();

@@ -5,12 +5,12 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/wp-content/themes/hussle/assets/styles/css"
+            "savePath": "/wp-content/themes/woch/assets/styles/css"
         },
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "/wp-content/themes/hussle/assets/styles/css"
+            "savePath": "/wp-content/themes/woch/assets/styles/css"
         },
         // // react -->
         // {
