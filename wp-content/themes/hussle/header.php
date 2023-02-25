@@ -19,7 +19,7 @@
 
     <header class="header-main d-flex sticky-top">
 
-        <a href="/wp_poca" class="d-flex align-items-center col-md-6">
+        <a href="/woch" class="d-flex align-items-center col-md-6">
             <?php
                 if(function_exists('the_custom_logo'))
                 {

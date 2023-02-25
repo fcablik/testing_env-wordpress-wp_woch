@@ -1,0 +1,47 @@
+{
+    "php.debug.executablePath": "/Applications/XAMPP/bin/php",
+    "php.validate.executablePath": "/Applications/XAMPP/bin/php",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/wp-content/themes/hussle/assets/styles/css"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/wp-content/themes/hussle/assets/styles/css"
+        },
+        // // react -->
+        // {
+        //     "format": "expanded",
+        //     "extensionName": ".css",
+        //     "savePath": "/src"
+        // },
+        // {
+        //     "extensionName": ".min.css",
+        //     "format": "compressed",
+        //     "savePath": "/src"
+        // },
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/.vscode/**",
+        "/**/wp-admin/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    
+    //autoprefix, will auto add perfix like -webkit- -moz-..
+    "liveSassCompile.settings.autoprefix": [
+        
+    
+        "> 1%",
+        "last 2 versions"
+    ],
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.colorTheme": "GitHub Dark",
+    "window.zoomLevel": 1,
+}
